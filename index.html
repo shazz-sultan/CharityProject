@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charity Connect</title>
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -99,10 +102,10 @@
     <div class="container">
         <nav>
             <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Explore Charities</a>
-            <a href="#">Get Involved</a>
-            <a href="#">Contact Us</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="#explorecharities">Explore Charities</a>
+            <a href="#getinvolved">Get Involved</a>
+            <a href="#contactus">Contact Us</a>
         </nav>
 
         <section class="charity">
@@ -116,7 +119,7 @@
         </section>
 
         <section class="charity">
-            <h2>Explore Charities</h2>
+            <h2 id="explorecharities">Explore Charities</h2>
             <div class="charity-info">
                 <h3>St. Judes</h3>
                 <p>Treats children with life threatening diseases like cancer.</p>
@@ -150,18 +153,19 @@
         </section>
 
         <section>
-            <h2>Get Involved</h2>
+            <h2 id ="getinvolved">Get Involved</h2>
             <p>There are many ways you can contribute to these causes:</p>
             <ul>
                 <li>Donate</li>
                 <li>Volunteer</li>
                 <li>Spread Awareness</li>
             </ul>
-            <button class="btn">Get Started</button>
+            <a href="#explorecharities" class="btn">Get Started</a>
+
         </section>
 
         <section class="contact">
-            <h2>Contact Us</h2>
+            <h2 id = "contactus">Contact Us</h2>
             <p>Have questions or suggestions? We'd love to hear from you!</p>
             <p>Email: contact@charityconnect.com</p>
             <p>Phone: 123-456-7890</p>
