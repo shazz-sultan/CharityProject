@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Light gray */
+  color: #333; /* Dark gray */
+}
+
+header {
+  background-color: #2196f3; /* Vibrant blue */
+  color: #fff; /* White */
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff; /* White */
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+section#about {
+  background-color: #ffe082; /* Yellow */
+}
+
+section#objective {
+  background-color: #81c784; /* Green */
+}
+
+section#donate {
+  background-color: #ffab91; /* Orange */
+}
+
+section#contact {
+  background-color: #f48fb1; /* Pink */
+}
+
+button {
+  background-color: #2196f3; /* Vibrant blue */
+  color: #fff; /* White */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1976d2; /* Dark blue */
+}
+
+footer {
+  background-color: #2196f3; /* Vibrant blue */
+  color: #fff; /* White */
+  padding: 20px;
+  text-align: center;
+}
